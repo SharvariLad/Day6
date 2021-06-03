@@ -1,0 +1,23 @@
+//Hashtable
+using System;
+using System.Collections;
+
+namespace Day6
+{
+	public class Class1
+	{
+		public static void Main()
+		{
+			Hashtable hashtable = new Hashtable();
+            hashtable.Add(101,"Sharvari");
+            hashtable.Add(102, "Ameya");
+            hashtable.Add(103, "Seema");
+            ICollection keys = hashtable.Keys;
+            foreach (var item in keys)
+            {
+                Console.WriteLine(item +":-" + hashtable[item]);
+            }
+			Console.ReadLine();
+		}
+	}
+}

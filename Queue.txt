@@ -1,0 +1,20 @@
+//Queue
+using System;
+using System.Collections;
+
+namespace Day6
+{
+	public class Class1
+	{
+		public static void Main()
+		{
+			Queue queue = new Queue();
+            queue.Enqueue("C#");
+            queue.Enqueue("PHP");
+            queue.Enqueue("JAVA");
+            queue.Dequeue();
+            Console.WriteLine(queue.Peek());
+			Console.ReadLine();
+		}
+	}
+}
